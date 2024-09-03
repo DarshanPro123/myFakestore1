@@ -1,0 +1,74 @@
+/* Header.css */
+
+nav {
+    background-color: #333;
+    height: 90px;
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+nav .logo a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+nav .logo span {
+    color: #f39c12;
+}
+
+nav ul {
+    list-style: none;
+    gap: 20px;
+    width: 60%;
+    padding: 1.2rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover,
+.active {
+    background-color: #f39c12;
+    border-radius: 5px;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+
+.carticon {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cart-counter {
+    position: absolute;
+    top: -10px;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #f9f9f9;
+    color: #ff0808;
+    border-radius: 60%;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
